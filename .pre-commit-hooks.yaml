@@ -1,0 +1,9 @@
+# This configuration file allows our pre-commit hooks to be used with pre-commit: http://pre-commit.com/
+
+- id: markdownfmt
+  name: markdownfmt
+  description: markdownfmt is a linter for MD source code
+  entry: hooks/markdownfmt.sh
+  language: script
+  files: \.md$
+  exclude: vendor\/.*$

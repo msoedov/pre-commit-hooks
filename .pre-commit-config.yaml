@@ -1,0 +1,7 @@
+- repo: local
+  hooks:
+    - id: markdownfmt
+      name: markdownfmt
+      entry: markdownfmt -w  .
+      language: golang
+      pass_filenames: true
