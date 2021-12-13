@@ -1,3 +1,4 @@
-1
 
-###
+# Pre commit hooks
+
+https://pre-commit.com/
